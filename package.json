@@ -1,0 +1,15 @@
+{
+  "name": "practica-7-api-productos",
+  "version": "1.0.0",
+  "description": "API REST de productos con MongoDB y Mongoose",
+  "main": "app.js",
+  "scripts": {
+    "start": "node -e \"require('dns').setServers(['8.8.8.8','8.8.4.4']); require('./app.js')\"",
+    "dev": "node -e \"require('dns').setServers(['8.8.8.8','8.8.4.4']); require('./app.js')\""
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
